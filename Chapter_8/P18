@@ -1,0 +1,1 @@
+void function(int (*array)[2][5])

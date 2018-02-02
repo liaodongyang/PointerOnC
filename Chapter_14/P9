@@ -1,0 +1,2 @@
+
+  sizeof is evaluated after preprocessor; so it doesn't work;

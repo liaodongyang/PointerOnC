@@ -1,0 +1,47 @@
+struct dd{
+	int a;
+};
+struct dd d1;
+d1.a=XX;
+
+struct dd{
+	int a;
+}ddd;
+ddd.a = xXX;
+
+struct {
+	int a;
+}dd
+dd.a = XXX;
+
+typedef struct{
+	int a;
+}goo
+goo d1;
+d1.a = XX;
+
+typedef struct{
+	int a;
+}goo
+goo d1[10];
+d1[0].a = XX;
+
+typedef struct{
+	int a;
+}goo
+goo *dp;
+dp->a = XX;
+
+typedef struct{
+	int a
+;
+}goo
+goo d1;
+d1.a = XX;
+
+struct chc{
+	unsigned ch1 : 7;
+	unsigned ch2 : 6;
+	unsigned ch3 : 19;
+}
+struct chc chc1;

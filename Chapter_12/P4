@@ -1,0 +1,13 @@
+struct DLL_NODE
+
+struct DLL_POINTER{
+	struct DLL_NODE *fwd;
+	struct DLL_NODE *bwd;
+};
+
+struct DLL_NODE {
+	struct DLL_POINTER pointer;
+	int value;
+}
+
+

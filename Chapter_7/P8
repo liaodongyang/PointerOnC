@@ -1,0 +1,8 @@
+
+while(XXXX){
+
+}
+
+int xx(){
+	return xx();
+}
